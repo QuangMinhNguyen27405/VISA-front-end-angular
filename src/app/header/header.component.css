@@ -1,0 +1,25 @@
+.navbar {
+    background-color: rgb(102, 41, 41);
+}
+
+#logo {
+    margin-left: 1.5rem;
+    margin-bottom: 0.5rem;
+    width: 35px;
+    height: 35px;
+}
+
+.nav-link {
+    margin-left: 1.5rem;
+    font-size: 15px;
+    color: rgb(247, 245, 214);
+}
+
+.active {
+    color: rgb(203, 168, 118);
+}
+
+button {
+    color: rgb(247, 245, 214);
+    border-radius: 5px;
+}
