@@ -1,5 +1,14 @@
-<main>
-  <app-header />
+<app-header />
 
-  <app-footer />
-</main>
+<router-outlet />
+
+<div *ngIf="gameData; else loading" class="game-details">
+  <h2>Game Details</h2>
+  <pre>{{ gameData | json }}</pre>
+</div>
+
+<ng-template #loading>
+  <p>Loading game data...</p>
+</ng-template>
+
+<app-footer />
