@@ -8,11 +8,12 @@ import { ContactComponent } from './contact/contact.component';
 
 // Define routes
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: 'home', component: HomeComponent },
   { path: 'map', component: MapComponent },
   { path: 'sport-leader-board', component: SportLeaderBoardComponent },
   { path: 'tally-tip', component: TallyTipComponent },
-  { path: 'contact', component: ContactComponent }
+  { path: 'contact', component: ContactComponent },
+  { path: '**', redirectTo: 'home' }
 ];
 
 @NgModule({
