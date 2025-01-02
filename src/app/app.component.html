@@ -1,7 +1,8 @@
 <app-header />
 
-<router-outlet />
-
+<main>
+  <router-outlet />
+</main>
 <div *ngIf="gameData; else loading" class="game-details">
   <h2>Game Details</h2>
   <pre>{{ gameData | json }}</pre>

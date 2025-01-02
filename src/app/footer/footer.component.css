@@ -1,3 +1,7 @@
+#footer {
+    max-width: 80%;
+}
+
 footer {  
     color: white;  
     padding: 2rem 0;  
@@ -62,3 +66,13 @@ form .btn:hover {
     color: rgb(203, 168, 118);  
 }  
 
+@media (max-width: 1040px) {
+    #footer {
+        max-width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    #footer {
+        max-width: 90%;
+    }
+}
